@@ -1,6 +1,6 @@
 {
   "name": "@chaucerbao/stylelint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A preset of recommended Stylelint rules",
   "author": "Alvin Chan <no@email.com>",
   "license": "ISC",
@@ -31,6 +31,10 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-prettier": "^1.1.2",
     "stylelint-scss": "^3.18.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=13",
+    "prettier": ">=2"
   },
   "scripts": {}
 }
