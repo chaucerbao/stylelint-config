@@ -1,0 +1,36 @@
+{
+  "name": "@chaucerbao/stylelint-config",
+  "version": "0.1.0",
+  "description": "A preset of recommended Stylelint rules",
+  "author": "Alvin Chan <no@email.com>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md}": "prettier --write"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "scripts": {}
+}
