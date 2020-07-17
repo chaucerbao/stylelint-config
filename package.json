@@ -1,13 +1,13 @@
 {
   "name": "@chaucerbao/stylelint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A preset of recommended Stylelint rules",
   "author": "Alvin Chan <no@email.com>",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "index.js",
   "files": [
-    "src/index.js",
-    "src/scss.js"
+    "index.js",
+    "scss.js"
   ],
   "husky": {
     "hooks": {
